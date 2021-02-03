@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap&subset");
+@font-face {
+font-family: 'Lato';
+src: url('../fonts/Lato-Medium.woff2') format('woff2'),
+url('../fonts/Lato-Medium.woff') format('woff');
+font-weight: 500;
+   font-style: normal;
+   ont-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+	line-height: 1;
+}
+/* --------------- */
+body{
+margin: 0px auto;
+max-width: 1200px;
+
+}
+
+.menu {
+	text-align: center;
+	margin: 73px 0px 98px 0px;
+
+}
+.menu-list li {
+	margin: 0px 0px 0px 40px;
+	display:inline-block;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 28px;
+	text-transform: capitalize;
+}
+.menu-link {
+	color: #222831;
+}
+
+.revolutionary {
+font-family: Lora;
+height: 201px;
+overflow: hidden;
+
+}
+
+.title {
+font-weight: bold;
+font-size: 52px;
+line-height: 67px;
+color: #10375C;
+max-width: 680px;
+padding: 0px 20px 0px 10px;
+}
+.title span {
+color: #DD2C00;
+}
+.text {
+font-weight: 500;
+font-size: 19px;
+line-height: 30px;
+color: #6A6A6A;
+max-width: 382px;
+padding: 0px 0px 0px 10px;
+margin: -190px 0px 0px 728px;
+}
+/* //=============================================================================================== */
+.block{
+	margin: 0px 0px 180px 0px;
+
+}
+.form {
+	background: #10375C;
+	width: 442px;
+	height: 459px;
+	margin: -535px 0px 0px 0px;
+	position: relative;
+
+}
+.form h2{
+font-family: Lora;
+font-weight: bold;
+font-size: 34px;
+line-height: 44px;
+color: #FFFFFF;
+text-align: center;
+padding: 40px 0px 0px 0px;
+}
+.block img{
+	margin: 0px 0px 0px 310px;
+	max-width: 960px;
+	
+}
+/* //============================================================================================================ */
+.why {
+	text-align:center;
+}
+.why-title {
+font-family: Lora;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+margin: 0px 0px 24px 0px;
+color: #0D2C4A;
+}
+.why-text {
+font-family: Lato;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #9A9A9A;
+margin: 0px 0px 56px 0px;
+}
+.why-logo{
+	text-align: center;
+	min-width: 1100px;
+	margin: 0px 0px 90px 0px;
+
+}
+.why-logo img{
+	display: inline-block;
+	margin: 0px 60px 60px 0px;
+	height: 35px;
+}
+/* //========================================================================================================= */
+.find {
+	margin: 0px 0px 90px 0px;
+}
+.find-title {
+max-width:578px; 
+height:102px;
+overflow: hidden;
+padding: 0px 10px 0px 0px;
+font-family: Lora;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+color: #10375C;
+margin: 0px 0px 50px 0px;
+}
+.find-item {
+	display: inline-block;
+	max-width: 350px;
+	height: 203px;
+	margin: 0px 25px 0px 0px;
+	border:1px solid #000000;
+}
+.find-text {
+margin: 40px 40px 10px 40px;
+max-width: 270px;
+font-family: Lora;
+font-size: 26px;
+line-height: 33px;
+color: #000000;
+text-align: center;
+}
+.find-block {
+text-align: center;
+display: inline-block;
+
+}
+.find-block div {
+	height:48px;
+	width:64px;
+	background: #FF5722;
+	display: inline-block;
+	margin: -25px 180px 35px 140px;
+	
+}
+
+.find-link {
+display: block;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+line-height: 26px;
+color: #FF5722;
+}
+/* //============================================================================================== */
+
+.overflow {
+margin: 0px 0px 60px 0px;
+font-family: Lora;
+color: #10375C;
+
+
+}
+.overflow p{
+	margin: 0px 0px 30px 0px;
+}
+.skroll {
+	height: 50px;
+	overflow: scroll;
+}
+.auto {
+	overflow: auto;
+	height: 50px;
+	text-indent: 70px;
+
+}
+.hidden {
+	background-color: #FF5722;
+width: 300px;
+height: 50px;
+overflow: hidden;
+}
+
+/* //=================================================================================================
+ */
+
+
+.image img, p{
+	margin: 0px 0px 30px 0px;
+}
+.v1 {
+	width: 100%;
+}
+.v2 {
+height: 300px;
+display: block;
+
+}
+.image-text {
+font-family: Lato;
+font-size: 16px;
+display: inline;
+
+}
+
+.v3 {
+	min-width: 300px;
+	height: 200px;
+
+}
+.v4 {
+	width: 500px;
+}
+.v5 {
+	max-height: 200px;
+	width: 600px;
+}
